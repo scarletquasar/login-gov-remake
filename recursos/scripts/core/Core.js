@@ -1,6 +1,6 @@
 var databaseLogins = ['000000000A123'];
 function EfetuarLogin() {
-	//INÍCIO DA SIMULAÇÃO DE LOGIN (COISAS QUE DEVERIAM SER EXECURADAS DE OUTRA MANEIRA NO BACK-END)
+	//INÍCIO DA SIMULAÇÃO DE LOGIN (COISAS QUE DEVERIAM SER EXECUTADAS DE OUTRA MANEIRA NO BACK-END)
 	document.getElementsByClassName("info_login_Nfeito")[0].style.display = "none";
 	document.getElementsByClassName("info_login_feito")[0].style.display = "none";
 
