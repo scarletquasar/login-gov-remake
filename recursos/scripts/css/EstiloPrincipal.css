@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+header {
+    background-image: url("headerback.png"); /*010048, #090088*/
+}
+
+footer {
+    background-image: linear-gradient(#010048, #090088);
+}
+
+header h1 {
+    margin: 0;
+}
+
+h3 {
+	text-align: center;
+	width: 100%;
+	color: white;
+}
+
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
+}
+
+.esquerdaImagens {
+	margin-left: 100px;
+}
+
+html, body {
+	vertical-align: middle;
+
+	background-color: #86acc0;
+	color: #272766;
+	font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#imagem_logo {
+	margin-left: 160px;
+}
+
+#loginForm {
+	margin-right: 160px;
+}
+
+p {
+	line-height: normal;
+}
+
+ul {
+  background-image: linear-gradient(#060055, #010048);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+   list-style-type: none;
+  margin: 0;
+
+}
+
+a{
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+a.links{
+  display: none;
+}
+
+input[type=text] {
+  border-radius: 20px;
+  border: none;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=password] {
+  border-radius: 20px;
+  border: none;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  border-radius: 20px;
+  width: 100%;
+  background-color: #86acc0;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+input[type=submit]:hover {
+  border-radius: 20px;
+  width: 100%;
+  background-color: #8693C0;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#criarContaBotao {
+  margin-left: 190px;
+  border-radius: 20px;
+  background-color: #267E22;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#criarContaBotao:hover {
+  border-radius: 20px;
+  background-color: #356133;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#titulo-contagov {
+   display: flex;
+   align-items:center;
+}
+
+/* The alert message box */
+.info_login_feito {
+  display: none;
+  padding: 20px;
+  background-color: #008000;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.info_login_Nfeito {
+  display: none;
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+
+#conteudo {
+	margin-left: 140px;
+}

